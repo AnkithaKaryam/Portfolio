@@ -24,7 +24,9 @@ const Hero = () => {
           {/* Terminal header */}
           <div className="border border-terminal-gray3 bg-terminal-gray1 mb-4">
             <div className="flex items-center h-8 px-4 border-b border-terminal-gray3 bg-terminal-gray2">
-              <span className="text-xs text-terminal-gray6">root@portfolio ~ > _</span>
+              <span className="text-xs text-terminal-gray6">
+               root@portfolio ~ {'>'} _
+              </span>
             </div>
             <div className="px-6 py-6">
               {/* Name */}
