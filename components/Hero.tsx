@@ -63,8 +63,7 @@ const Hero = () => {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6 text-sm text-terminal-gray7">
                 <a
                   href="mailto:ankitha.karyam.work@gmail.com"
-                  className="hover:text-terminal-white transition-colors duration-300"
-                >
+                  className="hover:text-terminal-white transition-colors duration-300">
                   <span className="text-terminal-gray5"> {'>'} </span>
                   ankitha.karyam.work@gmail.com
                 </a>
