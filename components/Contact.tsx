@@ -47,32 +47,35 @@ const Contact = () => {
           {/* Left side - Contact info */}
           <div className="animate-slide-up">
             {/* Direct contact */}
-            <div className="card mb-6">
-              <h3 className="flex items-center text-lg font-bold text-terminal-white mb-4">
-                <span className="text-terminal-gray5 mr-2">{'>'}</span>
-                Direct Contact
-              </h3>
-              <div className="space-y-4 text-sm">
-                <a
-                  href="mailto:ankitha.karyam.work@gmail.com"
-                  className="block text-terminal-gray8 hover:text-terminal-white transition-colors"
-                >
-                  <span className="text-terminal-gray5"> > </span>
-                  ankitha.karyam.work@gmail.com
-                </a>
-                <a
-                  href="tel:+918074543716"
-                  className="block text-terminal-gray8 hover:text-terminal-white transition-colors"
-                >
-                  <span className="text-terminal-gray5"> > </span>
-                  +91 8074543716
-                </a>
-                <p className="block text-terminal-gray8">
-                  <span className="text-terminal-gray5"> > </span>
-                  Bangalore, Karnataka, India
-                </p>
-              </div>
-            </div>
+<div className="card mb-6">
+  <h3 className="flex items-center text-lg font-bold text-terminal-white mb-4">
+    <span className="text-terminal-gray5 mr-2">{'>'}</span>
+    Direct Contact
+  </h3>
+
+  <div className="space-y-4 text-sm">
+    <a
+      href="mailto:ankitha.karyam.work@gmail.com"
+      className="block text-terminal-gray8 hover:text-terminal-white transition-colors"
+    >
+      <span className="text-terminal-gray5">{'>'} </span>
+      ankitha.karyam.work@gmail.com
+    </a>
+
+    <a
+      href="tel:+918074543716"
+      className="block text-terminal-gray8 hover:text-terminal-white transition-colors"
+    >
+      <span className="text-terminal-gray5">{'>'} </span>
+      +91 8074543716
+    </a>
+
+    <p className="block text-terminal-gray8">
+      <span className="text-terminal-gray5">{'>'} </span>
+      Bangalore, Karnataka, India
+    </p>
+  </div>
+</div>
 
             {/* Social links */}
             <div className="card">
