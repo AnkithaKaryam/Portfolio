@@ -71,11 +71,11 @@ const Footer = () => {
         <div className="pt-6 border-t border-terminal-gray3">
           <div className="flex flex-col md:flex-row items-center justify-between text-xs text-terminal-gray6">
             <p>
-              <span className="text-terminal-gray5"> > </span> © {currentYear} Ankitha Karyam.
+              <span className="text-terminal-gray5"> {'>'} </span> © {currentYear} Ankitha Karyam.
               All rights reserved.
             </p>
             <p className="mt-2 md:mt-0">
-              <span className="text-terminal-gray5"> > </span> Designed & Built with Next.js + Tailwind CSS
+              <span className="text-terminal-gray5"> {'>'} </span> Designed & Built with Next.js + Tailwind CSS
             </p>
           </div>
         </div>
@@ -84,7 +84,7 @@ const Footer = () => {
         <div className="mt-6 text-xs text-terminal-gray6 overflow-hidden">
           <p className="truncate">
             <span className="text-terminal-gray5">root@portfolio ~</span>
-            <span className="animate-blink"> ></span>
+            <span className="animate-blink"> {'>'}</span>
           </p>
         </div>
       </div>
