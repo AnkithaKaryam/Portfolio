@@ -68,13 +68,6 @@ const Hero = () => {
                   <span className="text-terminal-gray5"> {'>'} </span>
                   ankitha.karyam.work@gmail.com
                 </a>
-                <a
-                  href="tel:+918074543716"
-                  className="hover:text-terminal-white transition-colors duration-300"
-                >
-                  <span className="text-terminal-gray5">{'>'}</span>
-                  +91 8074543716
-                </a>
                 <span>
                   <span className="text-terminal-gray5"> {'>'} </span>
                   Bangalore, India
